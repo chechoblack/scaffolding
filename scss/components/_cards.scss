@@ -1,0 +1,50 @@
+.expertise {
+    background: #f5f5f5;
+}
+.expertise-item {
+    margin-bottom: 20px;
+}
+.card{
+    position: relative;
+    background: $primary-color-highlight;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    width: 280px;
+    margin-top: 80px;
+    box-shadow: 2px 2px 5px #999;
+}
+.section {
+    overflow: hidden;
+    padding: 50px 30px;
+  }
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.container.is-column {
+    flex-direction: column;
+}
+.car-title{
+    color: $secundary-color-highlight;
+}
+.card p{
+    color: $primary-color;
+}
+.expertise-item {
+    margin-bottom: 20px;
+  }
+  
+.expertise-item.has-cards {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.card h1:hover {
+    color: $secundary-color;
+}

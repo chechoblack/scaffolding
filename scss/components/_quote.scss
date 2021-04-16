@@ -1,0 +1,46 @@
+.quote{
+    display:flex;
+    flex-flow: row wrap;
+    background: rgb(54,79,107);
+    background: linear-gradient(180deg, rgba(54,79,107,1) 50%, rgba(255,255,255,1) 50%);
+    
+}
+.quote-item{
+    width: 100%;
+    color: $primary-color-highlight;  
+}
+.quote-contend{
+    width: 60%;
+}
+.quote-contend h1{
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 5%;
+    margin-left: 10%;
+    height: 5vh;
+    margin-right: 30%;
+}
+.quote-item2{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+.card-quote{
+    position: relative;
+    background: $primary-color-highlight;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 12px;
+    width: 80%;
+    height: 250px;
+    box-shadow: 2px 2px 5px #999;
+}
+.card-quote p{
+    text-align: justify;
+    font-size: 1.125rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.img-right{
+    float: right;
+}

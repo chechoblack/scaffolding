@@ -1,0 +1,26 @@
+.footer-container {
+    display: flex;
+    background: $primary-color;
+    color: $primary-color-highlight;
+}
+.footer-nav{
+    width: 50%;
+    list-style: none;
+}
+.footer-nav h3{
+    margin-top: 10px;
+    padding: 5px 15px;
+}
+.footer-social{
+    width: 50%;
+    list-style: none;
+}
+.img-social{
+    display: inline;
+}
+.img-social li{
+    float: right;
+}
+.img-social li img{
+    width: 50%;
+}

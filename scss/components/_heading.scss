@@ -1,0 +1,30 @@
+/**
+*   HEADING STYLES
+**/
+
+.heading{
+    display:flex;
+    flex-flow: row wrap;
+    font-size: size-heading-mobil;
+}
+.heading-item1{
+    width: 100%;
+    padding: 5px 35px;
+    margin-bottom: 50px;
+}
+.heading-item2{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 35px;
+    width: 100%;
+    background:url(../../images/pattern.png)  no-repeat;
+    background-size: 200px;
+    background-position: calc(100% ) 100%;
+}
+.heading-contend{
+    width: 50%;
+}
+.heading-contend p {
+    margin-left: 80px;
+    margin-right: 80px;
+}

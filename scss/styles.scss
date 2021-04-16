@@ -1,0 +1,38 @@
+/**
+*   PARTIALS
+**/
+@import 'partials/variables';
+@import 'partials/typography';
+
+/**
+*   COMPONENTS
+**/
+@import 'components/base';
+/**
+* navegador
+**/ 
+@import 'components/nav';
+/*
+*banner
+*/
+@import 'components/banner';
+/*
+* quote
+*/
+@import 'components/quote';
+/*
+* heading
+*/
+@import 'components/heading';
+/*
+* cards
+*/
+@import 'components/cards';
+/*
+** Footer
+*/
+@import 'components/footerStyle';
+/*
+* Movil
+*/
+@import 'components/mobile';

@@ -1,0 +1,41 @@
+.container-hero{
+    display: flex;
+}
+
+.hero-content{
+    width: 50%;
+    height: 100%;
+    background: transparent;
+}
+.banner-img{
+    width: 50%;
+    height: 100%;
+    background  :url(../../images/house.png)  no-repeat;
+    background-size: 600px;
+    background-position: calc(100% + 60px) 100%;
+    height: calc(50vh - 5px);
+}
+.hero-content h1{
+    color: $primary-color;
+    font-size: 3rem;
+    margin-left:60px;
+}
+.hero-content p{
+    color: $primary-color;
+    font-size: 1.7rem;
+    margin-left:60px;
+    margin-top: 30px;
+}
+button{
+    margin-left:60px;
+    margin-top: 30px;
+    background-color: $secundary-color-highlight;
+    padding: 5px 15px;
+    text-align: center;
+    color: $primary-color-highlight;
+    border: none;
+    border-radius: 20px 20px 20px 20px;
+}
+button:hover{
+    color: $primary-color;
+}
