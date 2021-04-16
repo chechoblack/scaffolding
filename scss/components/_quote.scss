@@ -5,6 +5,12 @@
     background: linear-gradient(180deg, rgba(54,79,107,1) 50%, rgba(255,255,255,1) 50%);
     
 }
+.quote-img{
+    background:url(../../images/pattern.png)  no-repeat;
+    background-size: 400px;
+    background-position: left top;
+    height: calc(50vh - 5px);
+}
 .quote-item{
     width: 100%;
     color: $primary-color-highlight;  
@@ -19,6 +25,10 @@
     margin-left: 10%;
     height: 5vh;
     margin-right: 30%;
+}
+.quote-contend .card-quote{
+    margin-top: 30px;
+    margin-left: 90px;
 }
 .quote-item2{
     display: flex;

@@ -64,13 +64,16 @@
         width: 100%;
         margin-top: 30%;
     }
+    .quote-img{
+        height: calc(100vh - 5px);
+    }
     .card-quote{
         margin: 2px;
         padding: 0px;
         width: 400px;
         height: 330px;
     }
-    .card-quote img{
+    .card-quote .img-left img{
         margin-top: 30px;
         margin-left: 10px;
         width: 20%;
@@ -135,20 +138,41 @@
     footer{
         flex-flow: column;
     }
+    .heading{
+        margin-top: 50px;
+    }
     .heading-contend{
         text-align: justify;
         margin-top: 10px;
         width: 100%;
     }
-    .quote-contend{
-        text-align: justify;
-        margin-top: 50px;
-        width: 90%;
-    }
     .heading-item1{
         width: 100%;
         padding: 5px 35px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+    }
+    .quote-contend{
+        text-align: justify;
+        margin-top: 20px;
+        width: 90%;
+    }
+    .quote-img{
+        height: calc(90vh - 5px);
+    }
+    
+    .card-quote {
+        width: 90%;
+        height: 100%;
+    }
+    .card-quote .img-left img{
+        width: 15%;
+    }
+    .card-quote .img-right img{
+        width: 90%;
+    }
+    .quote-contend .card-quote{
+        margin-top: 40px;
+        margin-left: 0;
     }
     .section {
         overflow: hidden;
@@ -163,7 +187,5 @@
     button:hover{
         color: $primary-color;
     }
-    .card-quote {
-        width: 80%;
-    }
+    
 }

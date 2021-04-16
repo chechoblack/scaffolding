@@ -7,6 +7,11 @@
     flex-flow: row wrap;
     font-size: size-heading-mobil;
 }
+.heading-img{
+    background:url(../../images/pattern2.png)  no-repeat;
+    background-size: 400px;
+    background-position: right 85px bottom -110px;
+}
 .heading-item1{
     width: 100%;
     padding: 5px 35px;
@@ -17,9 +22,7 @@
     justify-content: flex-end;
     padding: 5px 35px;
     width: 100%;
-    background:url(../../images/pattern.png)  no-repeat;
-    background-size: 200px;
-    background-position: calc(100% ) 100%;
+    
 }
 .heading-contend{
     width: 50%;
