@@ -9,7 +9,20 @@
     <link rel="icon" href="images/favicon-32x32.png" type="image/png" />
     <link rel="stylesheet" href="dist/css/normalize.css" />
     <link rel="stylesheet" href="dist/css/styles.css" />
-
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous">
+    </script>
+    <script>
+        $(function () {
+            $(".toggle").on("click", function () {
+                if ($(".item").hasClass("active")) {
+                    $(".item").removeClass("active");
+                } else {
+                    $(".item").addClass("active");
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
